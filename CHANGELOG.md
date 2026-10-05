@@ -1,5 +1,34 @@
 # Changelog
 
+## [4.0.2](https://github.com/morluto/rea/compare/rea-agents-4.0.1...rea-agents-4.0.2) (2026-10-05)
+
+
+### Bug Fixes
+
+* **ci:** upload Vitest blob reports from current path ([77799e6](https://github.com/morluto/rea/commit/77799e6c90ce36cd52e45b62c9cba2d46641c4cf))
+
+
+### Code Refactoring
+
+* **app:** split Setup and ProcessOwnership modules ([#628](https://github.com/morluto/rea/issues/628)) ([3c84080](https://github.com/morluto/rea/commit/3c84080aab5e5aa6c9fc14bafa07c635b537b64d))
+* **cli:** collapse duplicate CLI layer into src/cli ([#630](https://github.com/morluto/rea/issues/630)) ([494d4db](https://github.com/morluto/rea/commit/494d4db6d9d519f9258a25504cf29b07d61fbb9f))
+* **contracts:** split tool contracts by family ([#634](https://github.com/morluto/rea/issues/634)) ([5295d56](https://github.com/morluto/rea/commit/5295d56b105074b290e0d881df43cd13e34a2f8b))
+* **domain:** consolidate canonical ordering and digest helpers ([#624](https://github.com/morluto/rea/issues/624)) ([ba3869c](https://github.com/morluto/rea/commit/ba3869c597133b63fdcc0077c558923ae2e17a3f))
+* **domain:** split error taxonomy into thematic modules ([#636](https://github.com/morluto/rea/issues/636)) ([735c100](https://github.com/morluto/rea/commit/735c10059ca161967d71ccf8fa3f62011d2a22ca))
+* **native:** extract FAT header format switch in Mach-O slice selection ([#632](https://github.com/morluto/rea/issues/632)) ([38b2933](https://github.com/morluto/rea/commit/38b293329ca06c424a58bb59a28728f19015ce22))
+* **runtime:** centralize safe JSON parsing and preserve error causes ([#629](https://github.com/morluto/rea/issues/629)) ([e7f54b3](https://github.com/morluto/rea/commit/e7f54b3310b7f45af11c1754e468d4d3804191db))
+* **runtime:** name all silent catch causes without changing diagnostics ([#637](https://github.com/morluto/rea/issues/637)) ([5f27e02](https://github.com/morluto/rea/commit/5f27e02fae670774667de3618c88ba2ab0e7b661))
+
+
+### Documentation
+
+* fix architecture diagram and pretty-print tool catalog ([#626](https://github.com/morluto/rea/issues/626)) ([5e7f35c](https://github.com/morluto/rea/commit/5e7f35c7c3ea8d504421a2623eafd1d73fea08a0))
+
+
+### Tests
+
+* extract shared fixtures, drop knip carve-outs ([#627](https://github.com/morluto/rea/issues/627)) ([55e5eb0](https://github.com/morluto/rea/commit/55e5eb090bb3d6cf347d7cc2f8f028b35b7461ba))
+
 ## [4.0.1](https://github.com/morluto/rea/compare/rea-agents-4.0.0...rea-agents-4.0.1) (2026-10-05)
 
 
